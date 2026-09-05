@@ -8,7 +8,8 @@ class calc:
         return self.x - self.y
     def mul(self):
         return self.x * self.y
-
+    def sqrt_sum(self):
+        return (self.x + self.y) ** 0.5
 if __name__ == "__main__":
     a = calc(10, 20)
     print(a.add())
