@@ -6,6 +6,8 @@ class calc:
         return self.x + self.y
     def sub(self):
         return self.x - self.y
+    def mul(self):
+        return self.x * self.y
 
 if __name__ == "__main__":
     a = calc(10, 20)
